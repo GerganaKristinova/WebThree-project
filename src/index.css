@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: 'Inconsolata', monospace, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 500;
+}
+
+body {
+  background-color: #1A1A21;
+  color: #ECEAE3;
+}
+
+@media (min-width: 768px) {
+  body {
+    background-color: #1A1A21;
+    color: #ECEAE3;
+  }
+}
+
+@media (min-width: 1050px) {
+  body {
+    background-color: #1A1A21;
+    color: #ECEAE3;
+  }
+}
