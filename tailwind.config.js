@@ -25,6 +25,16 @@ export default {
       red: '#FF0000',
       green: '#05FF00',
     },
+    fontSize: {
+      'xs': '0.75rem',
+      'sm': '0.875rem',
+      'base': '1rem',
+      'lg': '1.125rem',
+      'xl': '1.25rem',
+      '2xl': '1.5rem',
+      '3xl': '1.875rem',
+      '4xl': '2.25rem'
+    },
     fontFamily: {
       sans: ['Poppins', 'sans-serif'],
     },
@@ -37,6 +47,7 @@ export default {
         '13.5': '3.75rem', //60px
         '17': '4.0625rem', //65px
         '25': '6.25rem', //100px
+        '30': '7.5rem', //120px
         '85': '20.9375rem', //335px
       },
       textShadow: {
@@ -51,6 +62,9 @@ export default {
       },
       boxShadow: {
         'glow': '0 0 10px',
+      },
+      rotate: {
+        '35': '35deg',
       }
     },
   },
