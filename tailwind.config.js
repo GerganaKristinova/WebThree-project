@@ -11,7 +11,7 @@ export default {
     screens: {
       'sm': '250px',
       'md': '768px',
-      'lg': '1280px',
+      'lg': '1100px',
     },
     colors: {
       lightgray: '#31303F',
@@ -43,6 +43,7 @@ export default {
         '3.5': '0.9375rem', //15px
         '4.5': '1.125rem', //18px
         '7.5': '1.875rem', //30px
+        '8.5': '2.1875rem', //35px
         '10.5': '2.625rem', //42px
         '13': '3.4375rem', //55px
         '13.5': '3.75rem', //60px
@@ -58,9 +59,6 @@ export default {
       fontSize: {
         'xxs': '0.625rem', //10px
         's': '0.9375rem', //15px
-      },
-      letterSpacing: {
-        'long': '0.25em'
       },
       boxShadow: {
         'glow': '0 0 10px',
