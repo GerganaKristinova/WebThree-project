@@ -1,20 +1,19 @@
-import "./App.css";
 import Buttons from "./components/Buttons";
-import Change from "./components/Change";
+import PriceChange from "./components/PriceChange";
 import Header from "./components/Header";
-import WeekChart from "./components/WeekChart";
-import YearChart from "./components/YearChart";
+import Charts from "./components/Charts";
+import PercentageRates from "./components/PercentageRates";
+import ChangeInDollars from "./components/ChangeInDollars";
 
 function App() {
   return (
     <>
       <Header />
       <Buttons />
-      <div className="md:flex lg:flex">
-        <WeekChart />
-        <YearChart />
-      </div>
-      <Change />
+      <Charts />
+      <PriceChange />
+      <PercentageRates />
+      <ChangeInDollars />
     </>
   );
 }

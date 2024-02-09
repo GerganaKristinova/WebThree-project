@@ -9,7 +9,7 @@ export default {
   ],
   theme: {
     screens: {
-      'sm': '200px',
+      'sm': '250px',
       'md': '768px',
       'lg': '1280px',
     },
@@ -41,6 +41,7 @@ export default {
     extend: {
       spacing: {
         '3.5': '0.9375rem', //15px
+        '4.5': '1.125rem', //18px
         '7.5': '1.875rem', //30px
         '10.5': '2.625rem', //42px
         '13': '3.4375rem', //55px
@@ -48,6 +49,7 @@ export default {
         '17': '4.0625rem', //65px
         '25': '6.25rem', //100px
         '30': '7.5rem', //120px
+        '46': '11.5625rem', //185px
         '85': '20.9375rem', //335px
       },
       textShadow: {

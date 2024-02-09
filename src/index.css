@@ -4,6 +4,7 @@
 
 @layer base {
   html {
-    font: normal 16px/1.04 "Inconsolata", monospace;
+    font: 16px/1.04 "Inconsolata", monospace;
+    background-color: #31303F;
   }
 }
