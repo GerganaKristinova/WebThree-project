@@ -9,13 +9,14 @@ export default {
   ],
   theme: {
     screens: {
-      'sm': '250px',
+      'sm': '280px',
       'md': '768px',
       'lg': '1100px',
     },
     colors: {
       lightgray: '#31303F',
       gray: '#1A1A21',
+      iron: '#666666',
       rock: '#23232B',
       dark: '#121212',
       charcoal: '#171533',
