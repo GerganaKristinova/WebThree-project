@@ -27,8 +27,7 @@ export default function Charts() {
     { year: 2021, value: 9.6 },
     { year: 2022, value: 8.3 },
     { year: 2023, value: 7.5 },
-    { year: 2024, value: 7 },
-    { year: 2025, value: 6 },
+    { year: 2024, value: 6 },
   ];
 
   const [chartData, setchartData] = useState(0);
@@ -143,7 +142,6 @@ export default function Charts() {
                 className="sm:text-xs md:text-base"
                 dataKey="year"
                 allowDuplicatedCategory={false}
-                tick={{ dx: 50 }}
                 tickLine={false}
                 axisLine={{ stroke: "#ECEAE3", strokeWidth: 2 }}
                 stroke={"#929292"}
